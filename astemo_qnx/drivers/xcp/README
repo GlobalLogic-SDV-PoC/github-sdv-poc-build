@@ -1,0 +1,5 @@
+1) Clone XCPLite repository an place it to this folder if it was not cloned by repo
+https://astemoelite.globallogic.com/stage-gerrit/admin/repos/xcp,general
+
+2) Place the application into ./apps folder
+3) Place tools into ./tools folder

@@ -1,0 +1,16 @@
+MCU communication manager daemon
+
+Description:
+    MCU communication manager daemon provides the mechanism to communicate with MCU
+
+Input parameters:
+    --dev|-d        - serial device name to communicate with MCU. Default is /dev/ser3
+
+Usage:
+    mcu_com [OPTION]
+
+Examples:
+    mcu_com
+    mcu_com --dev=/dev/ser4
+    mcu_com -d /dev/ser4
+

@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration version="20.0.40">
+  <AppsEnableSettings type="setting">
+    <ArrayOfAppEnableSetting xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <AppEnableSetting>
+        <AppName>vCDMstudio</AppName>
+        <Enabled>true</Enabled>
+      </AppEnableSetting>
+    </ArrayOfAppEnableSetting>
+  </AppsEnableSettings>
+  <CDMStudioLayoutConfiguration type="setting">
+    <XtraSerializer version="1.0" application="vCDMstudio">
+      <property name="#LayoutVersion" />
+      <property name="$ribbonControl" iskey="true" value="ribbonControl">
+        <property name="ToolbarShowMode">ShowAbove</property>
+        <property name="IsMinimized">false</property>
+        <property name="RuntimeCustomizations" iskey="true" value="0" />
+      </property>
+      <property name="$DockLayoutManager" iskey="true" value="DockLayoutManager">
+        <property name="EnableWin32Compatibility">true</property>
+        <property name="FloatingMode">Desktop</property>
+        <property name="Items" iskey="true" value="11">
+          <property name="Item1" isnull="true" iskey="true">
+            <property name="DestroyOnClosingChildren">false</property>
+            <property name="Orientation">Vertical</property>
+            <property name="SerializableSelectedTabPageIndex">-1</property>
+            <property name="AllowClose">false</property>
+            <property name="AllowDrag">false</property>
+            <property name="SerializableDockSituation" iskey="true" value="0" />
+            <property name="SerializationInfo" isnull="true" iskey="true">
+              <property name="IsUserDefined">true</property>
+            </property>
+            <property name="TypeName">LayoutGroup</property>
+            <property name="ParentName" isnull="true" />
+            <property name="ParentCollectionName" isnull="true" />
+            <property name="Name">WindowLayoutRoot</property>
+          </property>
+          <property name="Item2" isnull="true" iskey="true">
+            <property name="DestroyOnClosingChildren">false</property>
+            <property name="Orientation">Horizontal</property>
+            <property name="SerializableSelectedTabPageIndex">-1</property>
+            <property name="AllowClose">false</property>
+            <property name="AllowDrag">false</property>
+            <property name="SerializableDockSituation" iskey="true" value="0" />
+            <property name="SerializationInfo" isnull="true" iskey="true">
+              <property name="IsUserDefined">true</property>
+            </property>
+            <property name="TypeName">LayoutGroup</property>
+            <property name="ParentName">WindowLayoutRoot</property>
+            <property name="ParentCollectionName" isnull="true" />
+            <property name="Name">MainTopLayoutGroup</property>
+          </property>
+          <property name="Item3" isnull="true" iskey="true">
+            <property name="DestroyOnClosingChildren">false</property>
+            <property name="Orientation">Vertical</property>
+            <property name="SerializableSelectedTabPageIndex">-1</property>
+            <property name="AllowClose">false</property>
+            <property name="AllowDrag">false</property>
+            <property name="ItemWidth">0.3*</property>
+            <property name="SerializableDockSituation" iskey="true" value="0" />
+            <property name="SerializationInfo" isnull="true" iskey="true">
+              <property name="IsUserDefined">true</property>
+            </property>
+            <property name="TypeName">LayoutGroup</property>
+            <property name="ParentName">MainTopLayoutGroup</property>
+            <property name="ParentCollectionName" isnull="true" />
+            <property name="Name">LeftLayoutGroup</property>
+          </property>
+          <property name="Item4" isnull="true" iskey="true">
+            <property name="Settings" iskey="true" value="1">
+              <property name="Item1" type="System.String">Settings/MODE=0</property>
+            </property>
+            <property name="SerializableFloatingBounds">0,0,0,0</property>
+            <property name="SerializableFloatingOffset">0,0</property>
+            <property name="IsActive">false</property>
+            <property name="SerializableDockSituation" iskey="true" value="0" />
+            <property name="SerializationInfo" isnull="true" iskey="true" />
+            <property name="TypeName">NavigationViewPanel</property>
+            <property name="ParentName">LeftLayoutGroup</property>
+            <property name="ParentCollectionName" isnull="true" />
+            <property name="AutoHideExpandState">Hidden</property>
+            <property name="Name">dockItem1</property>
+            <property name="Caption" type="System.String">Navigation</property>
+          </property>
+          <property name="Item5" isnull="true" iskey="true">
+            <property name="DestroyOnClosingChildren">false</property>
+            <property name="Orientation">Vertical</property>
+            <property name="SerializableSelectedTabPageIndex">-1</property>
+            <property name="AllowClose">false</property>
+            <property name="AllowDrag">false</property>
+            <property name="SerializableDockSituation" iskey="true" value="0" />
+            <property name="SerializationInfo" isnull="true" iskey="true">
+              <property name="IsUserDefined">true</property>
+            </property>
+            <property name="TypeName">LayoutGroup</property>
+            <property name="ParentName">MainTopLayoutGroup</property>
+            <property name="ParentCollectionName" isnull="true" />
+            <property name="Name">RightLayoutGroup</property>
+          </property>
+          <property name="Item6" isnull="true" iskey="true">
+            <property name="DestroyOnClosingChildren">false</property>
+            <property name="Orientation">Horizontal</property>
+            <property name="SerializableSelectedTabPageIndex">-1</property>
+            <property name="AllowClose">false</property>
+            <property name="AllowDrag">false</property>
+            <property name="SerializableDockSituation" iskey="true" value="0" />
+            <property name="SerializationInfo" isnull="true" iskey="true">
+              <property name="IsUserDefined">true</property>
+            </property>
+            <property name="TypeName">LayoutGroup</property>
+            <property name="ParentName">RightLayoutGroup</property>
+            <property name="ParentCollectionName" isnull="true" />
+            <property name="Name">RightTopLayoutGroup</property>
+          </property>
+          <property name="Item7" isnull="true" iskey="true">
+            <property name="Settings" iskey="true" value="10">
+              <property name="Item1" type="System.String">PARASETEXPLORER-MAINVIEW-TOOLTIP/PARASETEXPLORER-MAINVIEW-TOOLTIP=5</property>
+              <property name="Item2" type="System.String">PARASETEXPLORER-MAINVIEW-TOOLTIP/TOOLTIP_ID_00=31</property>
+              <property name="Item3" type="System.String">PARASETEXPLORER-MAINVIEW-TOOLTIP/TOOLTIP_ID_01=458796</property>
+              <property name="Item4" type="System.String">PARASETEXPLORER-MAINVIEW-TOOLTIP/TOOLTIP_ID_02=3</property>
+              <property name="Item5" type="System.String">PARASETEXPLORER-MAINVIEW-TOOLTIP/TOOLTIP_ID_03=458784</property>
+              <property name="Item6" type="System.String">PARASETEXPLORER-MAINVIEW-TOOLTIP/TOOLTIP_ID_04=458813</property>
+              <property name="Item7" type="System.String">Settings/FILENAMEINNLINES=1</property>
+              <property name="Item8" type="System.String">Settings/FIXFIRSTCOLUMN=0</property>
+              <property name="Item9" type="System.String">Settings/SHORTENFILENAMES=0</property>
+              <property name="Item10" type="System.String">Settings/SHOW_VALUE_WITH_UNIT=1</property>
+            </property>
+            <property name="SerializableFloatingBounds">0,0,0,0</property>
+            <property name="SerializableFloatingOffset">0,0</property>
+            <property name="ShowBorder">false</property>
+            <property name="AllowClose">false</property>
+            <property name="AllowDock">false</property>
+            <property name="AllowDrag">false</property>
+            <property name="AllowFloat">false</property>
+            <property name="AllowMaximize">false</property>
+            <property name="AllowMinimize">false</property>
+            <property name="AllowMove">false</property>
+            <property name="AllowRename">false</property>
+            <property name="IsActive">true</property>
+            <property name="SerializableDockSituation" iskey="true" value="0" />
+            <property name="SerializationInfo" isnull="true" iskey="true" />
+            <property name="ShowCaption">false</property>
+            <property name="ShowCaptionImage">false</property>
+            <property name="ShowControlBox">false</property>
+            <property name="TypeName">MainViewPanel</property>
+            <property name="ParentName">RightTopLayoutGroup</property>
+            <property name="ParentCollectionName" isnull="true" />
+            <property name="AutoHideExpandState">Hidden</property>
+            <property name="Name">dockItem2</property>
+            <property name="Caption" type="System.String" />
+          </property>
+          <property name="Item8" isnull="true" iskey="true">
+            <property name="DestroyOnClosingChildren">false</property>
+            <property name="Orientation">Horizontal</property>
+            <property name="SerializableSelectedTabPageIndex">-1</property>
+            <property name="AllowClose">false</property>
+            <property name="AllowDrag">false</property>
+            <property name="ItemHeight">0.8*</property>
+            <property name="SerializableDockSituation" iskey="true" value="0" />
+            <property name="SerializationInfo" isnull="true" iskey="true">
+              <property name="IsUserDefined">true</property>
+            </property>
+            <property name="TypeName">LayoutGroup</property>
+            <property name="ParentName">RightLayoutGroup</property>
+            <property name="ParentCollectionName" isnull="true" />
+            <property name="Name">RightBottomLayoutGroup</property>
+          </property>
+          <property name="Item9" isnull="true" iskey="true">
+            <property name="Settings" iskey="true" value="15">
+              <property name="Item1" type="System.String">Settings/ACTIVE_MULTI_MODE_PAGE=21176</property>
+              <property name="Item2" type="System.String">Settings/DefWidthVertical_COL0=75</property>
+              <property name="Item3" type="System.String">Settings/DefWidthVertical_COL0_dpi96=50</property>
+              <property name="Item4" type="System.String">Settings/DefWidth_COL0=75</property>
+              <property name="Item5" type="System.String">Settings/DefWidth_COL0_dpi96=50</property>
+              <property name="Item6" type="System.String">Settings/DefWidth_COL1=150</property>
+              <property name="Item7" type="System.String">Settings/DefWidth_COL1_dpi96=100</property>
+              <property name="Item8" type="System.String">Settings/FixedMode=0</property>
+              <property name="Item9" type="System.String">Settings/FixedName=</property>
+              <property name="Item10" type="System.String">Settings/FixedVariant=</property>
+              <property name="Item11" type="System.String">Settings/NUMPAGE_BESTFITMODE=1</property>
+              <property name="Item12" type="System.String">Settings/NUMPAGE_VERTICAL=0</property>
+              <property name="Item13" type="System.String">Settings/PAGEID=21176</property>
+              <property name="Item14" type="System.String">Settings/ScreenDPIinSection=144</property>
+              <property name="Item15" type="System.String">Settings/VALUE_DISPLAY_MODE=0</property>
+            </property>
+            <property name="SerializableFloatingBounds">0,0,0,0</property>
+            <property name="SerializableFloatingOffset">0,0</property>
+            <property name="IsActive">false</property>
+            <property name="SerializableDockSituation" iskey="true" value="0" />
+            <property name="SerializationInfo" isnull="true" iskey="true" />
+            <property name="TypeName">NumericViewPanel</property>
+            <property name="ParentName">RightBottomLayoutGroup</property>
+            <property name="ParentCollectionName" isnull="true" />
+            <property name="AutoHideExpandState">Hidden</property>
+            <property name="Name">dockItem3</property>
+            <property name="Caption" type="System.String">Numeric</property>
+          </property>
+          <property name="Item10" isnull="true" iskey="true">
+            <property name="DestroyOnClosingChildren">false</property>
+            <property name="Orientation">Vertical</property>
+            <property name="SerializableSelectedTabPageIndex">-1</property>
+            <property name="AllowClose">false</property>
+            <property name="AllowDrag">false</property>
+            <property name="ItemHeight">0.3*</property>
+            <property name="SerializableDockSituation" iskey="true" value="0" />
+            <property name="SerializationInfo" isnull="true" iskey="true">
+              <property name="IsUserDefined">true</property>
+            </property>
+            <property name="TypeName">LayoutGroup</property>
+            <property name="ParentName">WindowLayoutRoot</property>
+            <property name="ParentCollectionName" isnull="true" />
+            <property name="Name">MainBottomLayoutGroup</property>
+          </property>
+          <property name="Item11" isnull="true" iskey="true">
+            <property name="Settings" iskey="true" value="0" />
+            <property name="SerializableFloatingBounds">0,0,0,0</property>
+            <property name="SerializableFloatingOffset">0,0</property>
+            <property name="IsActive">false</property>
+            <property name="SerializableDockSituation" iskey="true" value="0" />
+            <property name="SerializationInfo" isnull="true" iskey="true" />
+            <property name="TypeName">LoggingViewPanel</property>
+            <property name="ParentName">MainBottomLayoutGroup</property>
+            <property name="ParentCollectionName" isnull="true" />
+            <property name="AutoHideExpandState">Hidden</property>
+            <property name="Name">dockItem4</property>
+            <property name="Caption" type="System.String">Logging</property>
+          </property>
+        </property>
+        <property name="ManualClosedPanelsBarVisibility">false</property>
+        <property name="RedrawContentWhenResizing">false</property>
+        <property name="ShowFloatWindowsInTaskbar">false</property>
+        <property name="RestoreLayoutOptions.FloatPanelsRestoreOffset" OwnerType="DevExpress.Xpf.Docking.RestoreLayoutOptions" DependencyPropertyType="System.Windows.Point">331.333333333333,425.333333333333</property>
+      </property>
+    </XtraSerializer>
+  </CDMStudioLayoutConfiguration>
+  <LastSelectedView type="setting">
+    <string>vCDMstudio</string>
+  </LastSelectedView>
+  <HamburgerMenuConfig type="setting">
+    <IsHamburgerMenuCompact type="setting">
+      <boolean>false</boolean>
+    </IsHamburgerMenuCompact>
+    <IsHamburgerMenuVisible type="setting">
+      <boolean>true</boolean>
+    </IsHamburgerMenuVisible>
+  </HamburgerMenuConfig>
+  <WindowPosition type="setting">
+    <VCdmStudioWindowPosition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Left>130</Left>
+      <Top>279.33333333333331</Top>
+      <Height>800</Height>
+      <Width>1200</Width>
+      <WindowState>Normal</WindowState>
+    </VCdmStudioWindowPosition>
+  </WindowPosition>
+</configuration>

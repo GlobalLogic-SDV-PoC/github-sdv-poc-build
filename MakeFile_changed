@@ -1,0 +1,85 @@
+# This is the top-level Makefile for all source packages.
+# It makes all the code in the "src" directory, then installs it
+# in the "install" directory, then makes the images in
+# the images directory (if present).
+
+ROOT_DIR := $(notdir $(CURDIR))
+ifndef QCONFIG
+QCONFIG=qconfig.mk
+endif
+include $(QCONFIG)
+unexport ROOT_DIR
+
+#include recurse.mk
+.PHONY: make_start all install hinstall clean dummy images prebuilt binaries make_end
+
+# Expands to a single newline character
+define NEWLINE
+
+
+endef
+
+SUFFIXES := .mk
+
+all: gen_uid_gid_macro install images
+	@echo done
+
+subdirs:=$(subst /Makefile,,$(wildcard */[Mm]akefile))
+
+clean:
+	$(foreach dir,$(subdirs), $(MAKE) -C$(dir) clean $(NEWLINE))
+	-$(RM_HOST) -r install/*
+
+install:$(if $(wildcard prebuilt/*),prebuilt)
+	$(MAKE) -CAMSS hinstall
+#	$(MAKE) -Csrc$(srcver) hinstall
+	$(MAKE) -Cboards hinstall
+
+	$(MAKE) -CAMSS/platform/qal install
+	$(MAKE) -CAMSS/platform/hwdrivers/syscache_target_config install
+	$(MAKE) -CAMSS/platform/utilities/force_ns_bite install
+	$(MAKE) -CAMSS/platform/utilities/fdt_utils install
+	$(MAKE) -CAMSS/platform/utilities/mem_utils/pmem_client install
+	$(MAKE) -CAMSS/platform/hwdrivers/soc_infra/chipinfo install
+	$(MAKE) -CAMSS/platform/mproc/smem install
+	$(MAKE) -CAMSS/platform/hwdrivers/soc_infra/hwio install
+	$(MAKE) -CAMSS/platform/services/lib/pcie_smmu install
+	$(MAKE) -CAMSS install
+	$(MAKE) -Cboards install
+	$(MAKE) -C/app/astemo_qnx install
+
+	./stripdebug.sh
+
+
+
+
+#TODO:Below is just a temp fix, have to updated parser to take output directory as another parameter
+gen_uid_gid_macro:
+	@python ${BSP_ROOT}/tools/build/create_secpol_uid_gid_header.py ${BSP_ROOT}/target/filesets/common.etc.passwd.build ${BSP_ROOT}/target/filesets/common.etc.group.build
+	@mv ${BSP_ROOT}/system_uids.h ${BSP_ROOT}/target/filesets/launcher_scripts/system_uids.h
+	@mv ${BSP_ROOT}/system_uids.txt ${BSP_ROOT}/target/filesets/secpol/system_uids.txt
+	@mv ${BSP_ROOT}/system_gids.h ${BSP_ROOT}/target/filesets/launcher_scripts/system_gids.h
+	@mv ${BSP_ROOT}/system_gids.txt ${BSP_ROOT}/target/filesets/secpol/system_gids.txt
+
+images:
+	$(MAKE) -Ctarget
+
+prebuilt:
+	cp -rf prebuilt/* install/
+ifeq ($(USE_EXTERNAL_QNX_CONFIG),yes)	
+	cp -rf $(BSP_ROOT)/qnx_bins/prebuilt_QOS$(srcver)FIXME/target/qnx7/usr/include/* install/usr/include
+	cp -rf $(BSP_ROOT)/qnx_bins/prebuilt_QOS$(srcver)FIXME/target/qnx7/aarch64le/* install/aarch64le
+endif	
+make_start:
+	$(eval BUILD_START := $(shell date +%s))
+	$(eval BUILD_START_DATE := $(shell date -d@$(BUILD_START) +"%d/%m/%Y %T"))
+	
+make_end:
+	$(eval BUILD_END := $(shell date +%s))
+	$(eval BUILD_END_DATE := $(shell date -d@$(BUILD_END) +"%d/%m/%Y %T"))
+	@$(ECHO_HOST) "Build Start Time: $(BUILD_START_DATE)"
+	@$(ECHO_HOST) "Build End Time: $(BUILD_END_DATE)"
+	$(eval BUILD_TIME := $(shell echo $(BUILD_END)-$(BUILD_START) | bc))
+	$(eval BUILD_TIME := $(shell date -d "00:00:00 $(BUILD_TIME) seconds" +"%T"))
+	@$(ECHO_HOST) "Total Build Time: $(BUILD_TIME)"
+

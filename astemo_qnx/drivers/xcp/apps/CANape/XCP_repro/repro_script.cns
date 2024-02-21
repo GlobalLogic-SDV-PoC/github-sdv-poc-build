@@ -1,0 +1,29 @@
+#define OK    1
+#define NOK   0
+
+string db;
+string param_file = "SAIL_params";
+long dev_status;
+long db_status;
+
+/* Connect to the device and check Its status */
+dev_status = XCP_Target.Online();
+if(NOK == dev_status) {
+  Write("Device not connected!\n");
+  return 1;
+}
+
+Write("Device Online!\n");
+
+/* Check device A2L DB name */
+db_status = XCP_Target.GetDatabaseName(db);
+if(NOK == db_status) {
+  Write("Database not detected!\n");
+  return 1;
+}
+
+Write("DB: %s\n", db);
+
+/* Run CANape Program window */
+ExecuteMenuCommand("CM_SEND_FILE"); 
+

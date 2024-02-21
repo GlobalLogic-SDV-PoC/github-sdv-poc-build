@@ -1,0 +1,7 @@
+%C : Application to build firmware image for SAIL, MD amd SA9000
+
+Usage:
+	1) pack images using minigzip (i.e minigzip -5 ./system_qdrive.img ./system_qdrive.img.gz)
+	filenames are hardcoded in the source code (refer to struct fwimg_parts arrays)
+
+	2) run application in the folder with images to pack/unpack the images

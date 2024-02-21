@@ -1,0 +1,486 @@
+[FILE_INFO]
+Identification=CANape-Configuration-File
+FileName=XCP_repro.cna
+FileNameAbsolute=C:\Users\volod\Desktop\CANape_XCP_repro\XCP_repro.cna
+WorkingDirectory=C:\Users\volod\Desktop\CANape_XCP_repro
+ProjectId=07e7-000a-0013-0011-002b-0031-0000
+FileVersion=2000
+PrgVersion=Version 20.0.40.1786
+PrgDate=21.04.2023
+Description=
+CreationTime=13:22
+CreationDate=09/08/2023 ; Month/Day/Year
+ModificationTime=17:44
+ModificationDate=10/19/2023 ; Month/Day/Year
+Protected=0
+CurrentWindowsACP=1251
+
+[ADAS_SYSTEMS_CONFIGURATION]
+ALWAYS_USE_PROJECT_SETTINGS=0
+
+[ANALYSISPROFILE_MDF_LIST]
+Count=1
+
+[AVI_LIST]
+Count=0
+
+[CALIBRATION_LIST]
+Count=0
+
+[CANAPE_ENVIRONMENT]
+OBJECT_COUNT=0
+
+[CUSTOM_AXIS_TEMPLATE_LIST]
+COUNT=0
+
+[CUSTOM_TIME_AXIS_TEMPLATE_LIST]
+COUNT=0
+
+[DATAFLOW_LIST]
+Count=0
+
+[DATAMINING]
+AnalysisFilename=Analysis-{YEAR}-{MONTH}-{DAY}_{HOUR}-{MINUTE}-{SECOND}
+AnalysisDirectory=
+Comment=
+OptionMaxFindingsPerFile=100
+OptionMaxFindings=1000
+OptionCSVListSeparator=0
+OptionCSVExport=0
+OptionMARMFExport=0
+FromTime=-1
+FromActive=0
+FromTimePartActive=0
+ToTime=-1
+ToActive=0
+ToTimePartActive=0
+MDFExtensions=.mf4;.mdf;.dat;.mat;.h5;.xls;.xlsx;.tdms;.marmf
+Methods=
+Signals=
+AnalysisProfiles=
+ConditionEpsilon=1e-09
+ConditionEpsilonRelative=0
+
+[DATAMINING_FILE_LIST]
+Count=0
+
+[DISPLAY_PAGE_1]
+Name=
+Comment=
+Maximized=0
+ActiveWindow=4
+IsReportPage=0
+TimeAxisSynchronized=0
+PrintLayout=Default
+
+[DISPLAY_PAGE_1_DisplayElements]
+Count=0
+
+[DISPLAY_PAGES]
+Count=1
+Active=0
+
+[DYNAMIC_COLUMNS]
+Count=0
+
+[EVENT_LIST]
+Count=0
+
+[FILE_COMMENT_TEMPLATE]
+1="Name",""
+2="Division",""
+3="Project",""
+4="Subject",""
+5="Comment",""
+Count=5
+
+[FUNCTION_OBJECT_LIST]
+count=0
+
+[FUNCTIONS]
+COUNT=0
+COUNT_LIBRARY=0
+
+[GFX_VISUALIZATION]
+EnableRendering=1
+
+[JOB_LIST]
+Count=0
+
+[MASTER_CONFIG]
+CommentCOUNT=0
+DisplayName=SAIL_XCP_repro_cfg
+ColorUsed=0
+SubConfigsCount=0
+
+[MDF_LIST]
+Count=0
+
+[MEASUREMENT_LIST]
+Count=0
+OfflineFileCount=0
+MeaCfgLabellistName=
+
+[MEASUREMENT_OPTIONS]
+RemainingRecordingTime=5000
+StopMeasurementOnRecorderStopped=0
+MaxTime=60000
+BufferSize=3600000
+TimeAxis=20000
+TimeLimited=0
+BufferSizeMem=5120
+ShowDialogForErrors=1
+SaveAllToDisplayBuffer=0
+TimeMode=0
+YMode=1
+PollingAlways=1
+PollingOnlyVisiblePage=0
+DrawLastValue=1
+UpdateCycleBar=100
+UpdateCycleVal=500
+UpdateCycleGraph=1000
+UpdateCycleArr=1000
+UpdateCycleCal=1000
+UpdateCycle2D3DMeasure=500
+UpdateCycleAx=100
+UpdateCycleWrt=100
+UpdateCycleTrace=100
+UpdateCycleTxt=1000
+TimeScrollSoft=0
+TimeScrollAt=100
+TimeScrollSoftAt=80
+TimeScrollBy=100
+FitTimeAxis=1
+FitYAxis=0
+AutoInsertComment=0
+OfflineFileSignals=1
+UpdateMeaInCalWindows=1
+MeaSaveParameterOnStart=0
+NoCpuThrottle=0
+ShowFileSignalsDuringMeasurement=0
+CreateInternalSignalsOnDemand=0
+LiveMeasurementRate=1000
+EditCommentAfterSaveSignals=1
+ShowRejectFileMsg=1
+TaraMeasurementDurationMS=5000
+TaraMeasurementForerunMS=2000
+TaraMeasurementValueCount=5
+TaraSigmaCoefficient=0.3
+LinkOfflineFileSignalsAtOnce=0
+ParDeviceCount=0
+MeaSaveParameterFileName=Parameter
+StopMeasurementOnEvent=1
+StopMeasurementEventsCount=0
+StopMeasurementOnESC=1
+PauseMeasurementOnEvent=0
+PauseMeasurementEventsCount=0
+VmdmSaveToCloud=0
+VmdmMoveFile=0
+VmdmCollectionName=
+VmdmCollectionId=
+VmdmTenantName=
+VmdmTenantId=
+VmdmDescription=
+
+[MEASUREMENT_USERFILTER]
+Count=0
+
+[OPTIONS]
+WindowTextExtended=1
+WindowTextExtendedNew=1
+WindowSymbols=1
+GlobalCursor=0
+GlobalCursorTime=0
+GlobalCursorTimeNs=0
+MainWindowPos=2, 20, 20, 3800, 2048 ;cmd, x, y, w, h
+
+[PAR_COMMENT]
+Count=0
+
+[POST_ANALYSIS_SCRIPT]
+ScriptName=
+
+[POST_PROCESSEDFILE_SCRIPT]
+ScriptName=
+
+[PRE_ANALYSIS_SCRIPT]
+ScriptName=
+
+[PRE_PROCESSEDFILE_SCRIPT]
+ScriptName=
+
+[PRINTING]
+ScreenDPI=144
+
+[PROFILE_MDF_OBJECT_1]
+Unit=
+Components=0
+TimeSeriesSaveMode=0
+OptionalMethod=0
+IsStatisticObject=0
+TimeObjectIndex=-1
+TimeGrid=100
+TimeRangeObjectIndex=-1
+TimeRangeFrom=0
+TimeRangeObjectIndexTo=-1
+TimeRangeTo=60000
+DataMiningNoFindings=1
+DataMiningConditionOperator=3
+DataMiningConditionValue=0
+DataMiningComment=
+DMAnalysisProfile=
+DataMiningDescription=
+Name=Global
+Type=28
+TextFormula=Global
+Disabled=0
+FromLibrary=1
+LPcount=0
+Count=0
+IsFallback=0
+DisplayCount=0
+
+[RECORDER_1]
+Name=Recorder
+Type=0
+Comment=
+FilenameTemplate={RECORDER}_{YEAR}-{MONTH}-{DAY}_{HOUR}-{MINUTE}-{SECOND}.mf4
+ConverterId=
+TEXT_SEARCH=
+RecStartStopEnabled=0
+RecStartStopEvent=
+RecStartStopPostTimeMS=5000
+MaxSize=4294967295
+Enabled=1
+DefaultRecorder=1
+StartWithoutRecording=0
+SplitFileEnabled=0
+SplitFileTimeEnabled=0
+SplitFileSizeEnabled=1
+SplitFileEventEnabled=0
+SplitFileTimeS=3600
+SplitFileSizeBytes=104857600
+DataCompressionMode=0
+DataCompressionRate=6
+ForceFileSelection=0
+BuildFilenameAfterRecording=0
+TrgEnabled=0
+TrgStopRecording=0
+TrgStartStop=0
+TrgEnableMaxStopTime=0
+TrgExpandPostTime=0
+TrgSaveInOneFile=0
+TrgPreTimeMS=5000
+TrgPostTimeMS=5000
+TrgMaxStopTimeMS=5000
+TrgMaxBlockCount=1
+StartEvCount=0
+StopEvCount=0
+SplitEvCount=0
+BusLogNetworkKeyListCount=0
+IsFallback=0
+EditComment=1
+SaveMeasurementComment=1
+SaveCalibrationHistory=0
+SaveWriteWindowText=0
+SaveCalibrationCommands=0
+DataReduction=-1
+SaveParameterOnStart=0
+FlushMode=0
+AttachDeviceDatabase=1
+EmbedDeviceDatabase=0
+CompressDeviceDatabase=0
+vMDMCollectionId=
+vMDMCollectionName=
+vMDMTenantId=
+vMDMTenantName=
+vMDMUploadIndex=-1
+vMDMMoveFile=-1
+
+[RECORDER_1_ATTACHMENT_OPTIONS]
+AttachFileTime=0
+AttachFileMode=2
+MaxAttachFileCount=10
+MaxAttachFileSize=1000
+MaxTotalAttachSize=100000
+MaxLimitAttachFileCount=100
+MaxLimitAttachFileSize=10000
+MaxLimitTotalAttachSize=1000000
+AttachmentPathCount=0
+
+[RECORDER_1_FILE_COMMENT]
+1="Name",""
+2="Division",""
+3="Project",""
+4="Subject",""
+5="Comment",""
+Count=5
+
+[RECORDER_LIST]
+RecorderCount=1
+
+[REF_COLOR_FUNCTIONS]
+Count=0
+
+[SIGNALOBJECT_BINDINGS]
+Count=0
+
+[SIGNSELWND]
+FocusID=2004
+ActiveTab=0
+FilterNodeID=All
+TreeExpand_0=@All
+TreeExpand_1=All\Devices\SAIL
+TreeExpand_2=All\Configuration (SAIL_XCP_repro_cfg)\Contained components
+TreeExpand_3=All\Devices\SAIL_SW1\XCP_Rerpo.a2l
+TreeExpand_4=All\Devices
+TreeExpand_5=All\Measurement list
+TreeExpand_6=All\Function definitions
+TreeExpand_7=$All\Devices
+TreeExpand_8=#All\Devices\XCP_Target
+TextSearchCaseSensitive=0
+TextSearchUseMode=1
+TextSearchSearchFullText=1
+TextSearchSearchInComments=0
+TextSearchSearchInDisplayNames=1
+
+[VIRTUAL_MDF_LIST]
+Count=0
+
+[WINDOW_1]
+ShowTime=1
+TimeWidth=135
+CopyColumnTitles=1
+ClearStart=1
+AbsoluteTimeEnabled=0
+ShowGridLines=0
+ColumnCount=3
+Column_0=21, 70
+Column_0_dpi96=21, 47
+Column_1=22, 210
+Column_1_dpi96=22, 140
+Column_2=23, 1480
+Column_2_dpi96=23, 987
+Title=Write
+Type=128
+Comment=Write Window
+Number=1
+ScreenDPIinSection=144
+Position=0, 0, 1293, 3421, 499 ;cmd, x, y, w, h
+Position_dpi96=0, 0, 862, 2281, 333 ;cmd, x, y, w, h
+Position_Page01=0, 0, 1293, 3421, 499 ;cmd, x, y, w, h
+Position_Page01_dpi96=0, 0, 862, 2281, 333 ;cmd, x, y, w, h
+FloatingWindow=0
+ShowSignalComments=1
+DisplayMask=1 ; pages 1
+
+[WINDOW_2]
+DisplayMode=0
+Title=Device window
+Type=256
+Comment=Device Window
+Number=2
+ScreenDPIinSection=144
+Position=0, 0, 721, 3421, 550 ;cmd, x, y, w, h
+Position_dpi96=0, 0, 481, 2281, 367 ;cmd, x, y, w, h
+Position_Page01=0, 0, 721, 3421, 550 ;cmd, x, y, w, h
+Position_Page01_dpi96=0, 0, 481, 2281, 367 ;cmd, x, y, w, h
+FloatingWindow=0
+ShowSignalComments=1
+DisplayMask=1 ; pages 1
+
+[WINDOW_3]
+ProgID=PANELDOTNET.PanelDotNetCtrl.70
+PROPERTIES_COUNT=4
+PROPERTY_1=PanelFileName=repro_pannel.xvp
+PROPERTY_2=DatalinkDialogLayout=<LayoutInformation xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Location><X>177</X><Y>735</Y></Location><Size><Width>1566</Width><Height>617</Height></Size><TabControlSelectedIndex>0</TabControlSelectedIndex><HorizontalScrollingOffset>0</HorizontalScrollingOffset><FirstDisplayedScrollingRowIndex>0</FirstDisplayedScrollingRowIndex><ColumnWidths><int>266</int><int>195</int><int>105</int><int>187</int><int>165</int><int>150</int><int>165</int></ColumnWidths><ColumnOrder><int>0</int><int>1</int><int>2</int><int>3</int><int>4</int><int>5</int><int>6</int></ColumnOrder></LayoutInformation>
+PROPERTY_3=CompVersion=20.0.40.1786
+PROPERTY_4=IsTblPanel=0
+OBJECTS_COUNT=1
+OBJECT_1=CANape:Start target reprogramming=value:	event:$x=0$y=0$SCRIPT:"repro_script.cns"	condition:0	tooltip:Start reprogramming process
+ObjectCount=0
+HiddenDisplayCount=0
+Title=Panel Window
+Type=2048
+Comment=ActiveX Window
+Number=3
+ScreenDPIinSection=144
+Position=0, 0, 0, 1213, 721 ;cmd, x, y, w, h
+Position_dpi96=0, 0, 0, 809, 481 ;cmd, x, y, w, h
+Position_Page01=0, 0, 0, 1213, 721 ;cmd, x, y, w, h
+Position_Page01_dpi96=0, 0, 0, 809, 481 ;cmd, x, y, w, h
+FloatingWindow=0
+ShowSignalComments=1
+DisplayMask=1 ; pages 1
+
+[WINDOW_4]
+ProgID=CNPTRACE.TraceCtrl.1
+PROPERTIES_COUNT=22
+PROPERTY_1=DeviceItems={"CaptureEvents":"1","ShowEvents":"0","NodeCount":"1","Node0":{"DeviceName":"XCP_Target","CaptureEvents":"1","ShowEvents":"1","NodeCount":"3","Node0":{"Channel":"2","DisplayColor":{"Color":"0","UseColor":"false"},"CaptureEvents":"1","ShowEvents":"1","NodeCount":"0"},"Node1":{"Channel":"3","DisplayColor":{"Color":"0","UseColor":"false"},"CaptureEvents":"1","ShowEvents":"1","NodeCount":"0"},"Node2":{"Channel":"4","DisplayColor":{"Color":"0","UseColor":"false"},"CaptureEvents":"1","ShowEvents":"1","NodeCount":"0"}}}
+PROPERTY_2=NetworkItems={"Items":"0"}
+PROPERTY_3=ColumnConfigs={"ConfigCount":"1","Config0":{"Layout":"1","Name":"Initial","Column0":{"Width":"158","Position":"0","Name":"Time","IsDefaultName":"1"},"Column1":{"Width":"90","Position":"1","Name":"Channel","IsDefaultName":"1"},"Column2":{"Width":"53","Position":"2","Name":"ID","IsDefaultName":"1"},"Column3":{"Width":"68","Position":"3","Name":"Name","IsDefaultName":"1"},"Column5":{"Width":"53","Position":"5","Name":"Dir","IsDefaultName":"1"},"Column6":{"Width":"75","Position":"6","Name":"Length","IsDefaultName":"1"},"Column7":{"Width":"240","Position":"7","Name":"Data","IsDefaultName":"1"},"Column16":{"Width":"113","Position":"4","Name":"Type","IsDefaultName":"1"},"Column52":{"Width":"225","Position":"8","Name":"Protocol Interpretation","IsDefaultName":"1"}},"Active":"0","ActiveLayout":"1"}
+PROPERTY_4=PinningEvents={"EventCount":"0"}
+PROPERTY_5=ExpandedEvents={"EventCount":"0"}
+PROPERTY_6=AnalysisGroups={"GroupCount":"1","Group0":{"Enabled":"1","Expanded":"1","Name":"Filter Group 0","FilterCount":"2","Filter0":{"Stop":"1","Enabled":"1","ConditionCount":"0"},"Filter1":{"Stop":"0","Enabled":"0","ConditionCount":"0"}}}
+PROPERTY_7=AnalysisDataChangeFilter=0
+PROPERTY_8=SequenceFilters={"IsEnabled":"1","FilterCount":"0"}
+PROPERTY_9=SearchPatterns={"EventCount":"0"}
+PROPERTY_10=ExplorerConfig={"VSplitPos":"225","VSplitExpanded":"true","HSplitPos":"435","HSplitExpanded":"false","ActiveExplorerView":"1","ActiveSearchType":"0"}
+PROPERTY_11=ContinuousMode=1
+PROPERTY_12=AbsoluteTimeMode=1
+PROPERTY_13=HighPrioritySBClient=0
+PROPERTY_14=EventFading=0
+PROPERTY_15=ByteFading=0
+PROPERTY_16=BufferEntries=10000
+PROPERTY_17=ClearStart=true
+PROPERTY_18=OnlyMeasurement=false
+PROPERTY_19=CopyColumnTitles=true
+PROPERTY_20=LoggingEnabled=false
+PROPERTY_21=LoggingFilePath=
+PROPERTY_22=LoggingOverwriteOnConfigLoad=false
+OBJECTS_COUNT=0
+ObjectCount=0
+HiddenDisplayCount=0
+TraceChannelCount=2
+ColumnCount=9
+Column_0=0, 158
+Column_1=256, 90
+Column_2=257, 53
+Column_3=4, 68
+Column_4=1281, 113
+Column_5=1, 53
+Column_6=2, 75
+Column_7=3, 240
+Column_8=513, 225
+DeltaTimeEnabled=0
+Title=Trace window {DISPLAYED_FILENAME}
+Type=16384
+Comment=ActiveX Window
+Number=4
+ScreenDPIinSection=144
+Position=0, 1213, 0, 2209, 721 ;cmd, x, y, w, h
+Position_dpi96=0, 809, 0, 1473, 481 ;cmd, x, y, w, h
+Position_Page01=0, 1213, 0, 2209, 721 ;cmd, x, y, w, h
+Position_Page01_dpi96=0, 809, 0, 1473, 481 ;cmd, x, y, w, h
+FloatingWindow=0
+ShowSignalComments=1
+DisplayMask=1 ; pages 1
+
+[WINDOW_4_CHANNEL_1]
+Module=XCP_Target
+Channel=0
+CustomColorFlag=0
+Color=0
+
+[WINDOW_4_CHANNEL_2]
+Module=XCP_Target
+Channel=1
+CustomColorFlag=0
+Color=0
+
+[WINDOWS]
+Count=4
+
+[Y_COMMON_AXIS_LIST]
+Count=0
+

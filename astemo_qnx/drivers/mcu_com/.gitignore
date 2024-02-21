@@ -1,0 +1,9 @@
+*.a
+*.map
+*.o
+*.pinfo
+*.uncrustified
+*.orig
+
+daemon/nto-aarch64-o.le/mcu_com*
+

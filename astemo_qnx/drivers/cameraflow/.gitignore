@@ -1,0 +1,7 @@
+astemo_enc_app
+
+*.o
+*.a
+*.map
+*.pinfo
+*.so

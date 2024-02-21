@@ -1,0 +1,22 @@
+#Exclude XCPlite as it has dedicated repository
+XCPlite/
+
+*.a
+*.o
+*.so
+*.so.1
+*.map
+*.pinfo
+*.orig
+*.uncrustified
+xcp_repro
+img_builder
+
+# CANape specific
+*.pcap
+*.mdf
+*.mf4
+*.a2L
+*.HEX
+*.par
+*.cnaxml
